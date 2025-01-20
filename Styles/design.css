@@ -1,0 +1,132 @@
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Shared Styles */
+*{
+    margin: 0 auto;
+    background-color: #F7F7F7;
+}
+
+.btn-primary{
+    background-color:orange;
+    width: 197px;
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: white; 
+    border: none;
+    padding:10px 10px;
+    margin-left: 0px;
+    margin-top: 10px;
+    border-radius: 13px;
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+}
+nav li, ul, a{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    gap: 32px;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-left: 186px;
+    padding-right: 186px;
+}
+.icon{
+    width: 62px;
+    height: 62px;
+}
+.home{
+    color: orange;
+}
+.facilities{
+    color: #05D4DF;
+}
+.about{
+    color: skyblue;
+}
+.admission{
+    color:#5D58EF;
+}
+
+/* Banner */
+.Banner{
+    display: flex;
+    align-items: center;
+    max-width: 1310px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 50px;
+    margin-left:0px;
+    margin-bottom: 24px;
+}
+.banner-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.btn-banner{
+    background-color:black;
+    width: 197px;
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: white; 
+    border: none;
+    padding:10px 10px;
+    margin-left: 0px;
+    margin-top: 10px;
+    border-radius: 13px;
+}
+
+@media screen and (max-width: 576px){
+    nav ul{
+        display: none;
+    }
+    .icon{
+        display: block;
+        margin-left: 0px;
+    } 
+    .btn-primary{
+        display: none;
+    }
+    .header-head{
+        display: none;
+    }
+    nav i{
+        display: block;        
+    }
+}
