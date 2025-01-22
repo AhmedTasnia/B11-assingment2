@@ -252,8 +252,7 @@ nav ul{
 .stories{
     flex-direction: column;
     gap: 80px;
-    background-image: url('../assets/bg.png');
-    background:linear-gradient(0deg, rgba(254, 163, 1, 0.5), rgba(255, 255, 255, 0.5) );
+    background:url('../assets/bg.png'),linear-gradient(0deg, rgba(254, 163, 1, 0.5), rgba(255, 255, 255, 0.5) );
     background-size: cover;
 
 }
@@ -263,6 +262,12 @@ nav ul{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+}
+.story-box1{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    max-width: 540px;
+    max-height: 630px;
 }
 .story-box{
     background-color: #FFFFFF;
@@ -290,10 +295,9 @@ nav ul{
     align-items: flex-start;
 }
 .card_img{
-    border-radius: 16px 16px 16px 16px;
+    border-radius: 16px 16px 0px 0px;
     width: 100%;
 }
-
 .our-stories{
     display: block;
     width: 540px ;
@@ -306,15 +310,9 @@ nav ul{
     font-weight: bold;
     margin-bottom: 10px;
 }
-
-
 .story_card{
     border-radius: 16px;
     background-color: white;
-}
-.card_img{
-    border-radius: 16px 16px 16px 16px;
-    width: 100%;
 }
 .story_title{
     font-size: 1rem;
@@ -400,23 +398,6 @@ nav ul{
     font-weight: bold;
     align-content: center;
 }
-/* @media screen and (max-width: 576px){
-    nav ul{
-        display: none;
-    }
-    .icon{
-        display: block;
-    } 
-    .btn-primary{
-        display: none;
-    }
-    .header-head{
-        display: none;
-    }
-    nav i{
-        display: block;        
-    }
-} */
 
 @media screen and (max-width:576px){
     .nav{
